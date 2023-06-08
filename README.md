@@ -25,6 +25,8 @@ Requirement:
 
 8) ES6
 
+9) Images
+
 Screenshots:
 
 ![1](https://github.com/ReaperXXD/Front-End-Personal-Project/assets/131137572/b8f14129-2b7c-40a8-ba46-8d36b25ef641)
