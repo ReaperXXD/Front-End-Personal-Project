@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
+    />
+    <script src="worldcountries.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Weather App</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="search-box">
+        <i class="fa-solid fa-location-dot"></i>
+        <input type="text" placeholder="Enter your location" />
+        <button class="fa-solid fa-magnifying-glass"></button>
+      </div>
+
+      <div class="not-found">
+        <img src="/Front-End Personal Project/assest/Error 404.png" />
+        <p>Invalid location <br />Sorry</p>
+      </div>
+
+      <div class="weather-box">
+        <img src="" />
+        <p class="temperature"></p>
+        <p class="description"></p>
+      </div>
+
+      <div class="weather-details">
+        <div class="humidity">
+          <i class="fa-solid fa-water"></i>
+          <div class="text">
+            <span></span>
+            <p>Humidity</p>
+          </div>
+        </div>
+        <div class="wind">
+          <i class="fa-solid fa-wind"></i>
+          <div class="text">
+            <span></span>
+            <p>Wind Speed</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="map"></div>
+    <script
+      src="https://kit.fontawesome.com/7c8801c017.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
